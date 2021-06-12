@@ -18,6 +18,7 @@ const App = () => {
   const [currentId, setCurrentId] = useState(null)
   const classes = useStyles()
   const dispatch = useDispatch()
+  console.log(currentId)
 
   useEffect(() => {
     dispatch(getPosts())
